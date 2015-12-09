@@ -3,7 +3,7 @@
 
 <?php
 try{
-$pdh = new PDO("mysql:host=localhost; dbname=bookstore_eg"  , "root"  , ""  );
+$pdh = new PDO("mysql:host=mysql.hostinger.vn; dbname=u667511593_book"  , "u667511593_book"  , "123456" );
 $pdh->query("set names 'utf8'");
 }
 catch(Exception $e){
